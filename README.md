@@ -34,7 +34,17 @@ python test --data ./COVID-CT/Images-processed --label ./COVID-CT/Data-split --c
 ```
 ## Citation
 ```
-Tran TT., Tran TT., Pham VT. (2021) Deep Learning Based COVID-19 Diagnosis by Joint Classification and Segmentation. In: Phuong N.H., Kreinovich V. (eds) Soft Computing: Biomedical and Related Applications. Studies in Computational Intelligence, vol 981. Springer, Cham.
+@Inbook{Tran2021,
+author="Tran, Tien-Thanh and Tran, Thi-Thao and Pham, Van-Truong",
+editor="Phuong, Nguyen Hoang and Kreinovich, Vladik",
+title="Deep Learning Based COVID-19 Diagnosis by Joint Classification and Segmentation",
+bookTitle="Soft Computing: Biomedical and Related Applications",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="121--128",
+isbn="978-3-030-76620-7"
+}
 ```
 ## Contact
 If you have any questions, please post it on github issues.
