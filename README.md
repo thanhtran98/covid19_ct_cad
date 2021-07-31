@@ -21,10 +21,10 @@ $ cd covid_ct_cad
 The proposed system can detect COVID-19 from CT scans using deep learning. The system consists of two stages which are *Segmentation stage* and *Classification stage*.  
 In *Segmentaion stage*, a modified version of [U-Net](https://arxiv.org/abs/1505.04597) was used to identify lung region and get rid of noisy background.  
 In *Classification stage*, we trained the DenseNet-169 with the filtered dataset. Final output represents the probability of those test samples taken from positive patients.
-## Result of the Segmentation stage
+### Result of the Segmentation stage
 You can download the pretrained segmentation model [[Here]](https://drive.google.com/file/d/1-1IkDer1q9k7U05LJoR96mQUuX1KSuJ9)
 
-<img src="segmentation_result.png" width="60%" align="middle"/>
+<img src="segmentation_result.png" width="80%" align="middle"/>
 
 ## Dataset
 The dataset used to train and evaluate the system was COVID-CT-Dataset from this [repo](https://github.com/UCSD-AI4H/COVID-CT). You can download the dataset and place it in the main repository.  
