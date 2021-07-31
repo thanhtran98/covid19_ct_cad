@@ -1,7 +1,7 @@
 # COVID-19 CAD system
 The PyTorch implementation of our paper "[Deep Learning Based COVID-19 Diagnosis by Joint Classification and Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-76620-7_10)"
 
-[Tien-Thanh Tran](https://www.linkedin.com/in/thanhtran-bk/), [Thi-Thao Tran](https://www.sites.google.com/site/thaott3i/), [Van-Truong Pham](https://www.sites.google.com/site/truongpvsite)
+[Tien-Thanh Tran](https://github.com/thanhtran98), [Thi-Thao Tran](https://www.sites.google.com/site/thaott3i/), [Van-Truong Pham](https://www.sites.google.com/site/truongpvsite)
 
 |   Metrics   | [Liu *et al.*](https://f.hubspotusercontent00.net/hubfs/5059707/KDD%202020%20Papers%20Posters/A%20Fast%20Online%20COVID-19%20Diagnostic%20System%20with%20Chest%20CT%20Scans.pdf) (2020) | [Silva *et al.*](https://www.researchsquare.com/article/rs-41062/v1) (2020) | [Jiang *et al.*](http://noiselab.ucsd.edu/ECE228/projects/Report/10Report.pdf) (2020) | [He *et al.*](https://www.medrxiv.org/content/10.1101/2020.04.13.20063941v1) (2020) | Proposed method |
 |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:---------------:|
