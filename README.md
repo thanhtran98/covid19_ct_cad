@@ -15,7 +15,7 @@ The PyTorch implementation of our paper "[Deep Learning Based COVID-19 Diagnosis
 ## Installation
 ```shell
 $ git clone git@github.com:thanhtran98/covid_ct_cad.git
-$ cd thanhtran98
+$ cd covid_ct_cad
 ```
 ## Dataset
 The dataset used to train and evaluate the system was COVID-CT-Dataset from this [repo](https://github.com/UCSD-AI4H/COVID-CT). You can download the dataset and place it in the main repository.  
