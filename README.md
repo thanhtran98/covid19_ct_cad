@@ -26,11 +26,11 @@ The labels and data split in `./Data-split`
 First you need to download the pretrained segmentation models [[Here]](https://drive.google.com/file/d/1-1IkDer1q9k7U05LJoR96mQUuX1KSuJ9)
 ### Training
 ```shell
-python train --data ./COVID-CT/Images-processed --label ./COVID-CT/Data-split --segment-ckp ./UnetPlus_0909_alldata.pt
+python train.py --data ./COVID-CT/Images-processed --label ./COVID-CT/Data-split --segment-ckp ./UnetPlus_0909_alldata.pt
 ```
 ### Testing
 ```shell
-python test --data ./COVID-CT/Images-processed --label ./COVID-CT/Data-split --classify-ckp ./checkpoint/best.pt --segment-ckp ''
+python test.py --data ./COVID-CT/Images-processed --label ./COVID-CT/Data-split --classify-ckp ./checkpoint/best.pt --segment-ckp ''
 ```
 ## Citation
 ```
