@@ -23,7 +23,7 @@ COVID CT scans are in `./Images-processed/CT_NonCOVID.zip`
 Non-COVID CT scans are in `./Images-processed/CT_NonCOVID.zip`  
 The labels and data split in `./Data-split`
 ## Quick start
-First you need to download the pretrained segmentation models [[Here]](https://drive.google.com/file/d/1-1IkDer1q9k7U05LJoR96mQUuX1KSuJ9)
+First you need to download the pretrained segmentation model [[Here]](https://drive.google.com/file/d/1-1IkDer1q9k7U05LJoR96mQUuX1KSuJ9)
 ### Training
 ```shell
 python train.py --data ./COVID-CT/Images-processed --label ./COVID-CT/Data-split --segment-ckp ./UnetPlus_0909_alldata.pt
