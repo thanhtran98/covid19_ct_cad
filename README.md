@@ -28,7 +28,7 @@ You can download the pretrained segmentation model [[Here]](https://drive.google
 
 ## Dataset
 The dataset used to train and evaluate the system was COVID-CT-Dataset from this [repo](https://github.com/UCSD-AI4H/COVID-CT). You can download the dataset and place it in the main repository.  
-COVID CT scans are in `./Images-processed/CT_NonCOVID.zip`  
+COVID CT scans are in `./Images-processed/CT_COVID.zip`  
 Non-COVID CT scans are in `./Images-processed/CT_NonCOVID.zip`  
 The labels and data split in `./Data-split`
 ## Quick start
