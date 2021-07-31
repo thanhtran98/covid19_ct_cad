@@ -24,7 +24,7 @@ In *Classification stage*, we trained the DenseNet-169 with the filtered dataset
 ### Result of the Segmentation stage
 You can download the pretrained segmentation model [[Here]](https://drive.google.com/file/d/1-1IkDer1q9k7U05LJoR96mQUuX1KSuJ9)
 
-<img src="segmentation_result.png" width="80%" align="middle"/>
+<img src="segmentation_result.png" width="70%" align="middle"/>
 
 ## Dataset
 The dataset used to train and evaluate the system was COVID-CT-Dataset from this [repo](https://github.com/UCSD-AI4H/COVID-CT). You can download the dataset and place it in the main repository.  
