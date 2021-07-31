@@ -17,13 +17,21 @@ The PyTorch implementation of our paper "[Deep Learning Based COVID-19 Diagnosis
 $ git clone git@github.com:thanhtran98/covid_ct_cad.git
 $ cd covid_ct_cad
 ```
+## System
+The proposed system can detect COVID-19 from CT scans using deep learning. The system consists of two stages which are *Segmentation stage* and *Classification stage*.  
+In *Segmentaion stage*, a modified version of [U-Net](https://arxiv.org/abs/1505.04597) was used to identify lung region and get rid of noisy background.  
+In *Classification stage*, we trained the DenseNet-169 with the filtered dataset. Final output represents the probability of those test samples taken from positive patients.
+## Result of the Segmentation stage
+You can download the pretrained segmentation model [[Here]](https://drive.google.com/file/d/1-1IkDer1q9k7U05LJoR96mQUuX1KSuJ9)
+
+<img src="segmentation_result.png" width="60%" align="middle"/>
+
 ## Dataset
 The dataset used to train and evaluate the system was COVID-CT-Dataset from this [repo](https://github.com/UCSD-AI4H/COVID-CT). You can download the dataset and place it in the main repository.  
 COVID CT scans are in `./Images-processed/CT_NonCOVID.zip`  
 Non-COVID CT scans are in `./Images-processed/CT_NonCOVID.zip`  
 The labels and data split in `./Data-split`
 ## Quick start
-First you need to download the pretrained segmentation model [[Here]](https://drive.google.com/file/d/1-1IkDer1q9k7U05LJoR96mQUuX1KSuJ9)
 ### Training
 ```shell
 python train.py --data ./COVID-CT/Images-processed --label ./COVID-CT/Data-split --segment-ckp ./UnetPlus_0909_alldata.pt
